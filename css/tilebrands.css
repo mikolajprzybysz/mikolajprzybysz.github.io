@@ -1,0 +1,22 @@
+.tile {
+    border-right:1px solid #cfcfcf;
+    border-bottom:1px solid #cfcfcf;
+    text-align: center;
+    padding-bottom:20px;
+}
+
+.tile:last-child {
+    border-right:0;
+}
+
+.tile--row:last-child .tile {
+    border-bottom:0;
+}
+
+.tile--brand {
+    padding-top:20px;
+}
+
+.tile--model {
+    padding-top:60px;
+}
